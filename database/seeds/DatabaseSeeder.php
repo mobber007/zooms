@@ -11,8 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $path = 'https://oncheck.ml/seeder.sql';
+        /*$path = 'https://oncheck.ml/seeder.sql';
         DB::unprepared(file_get_contents($path));
-        $this->command->info('Zooms seeded!');
+        $this->command->info('Zooms seeded!');*/
     }
 }
