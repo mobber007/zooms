@@ -11,9 +11,14 @@
 |
 */
 
+
+Route::domain(env('ADMIN_DOMAIN'))->group(function () {
+
+    Voyager::routes();
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
-
 
 
